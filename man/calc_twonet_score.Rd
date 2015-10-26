@@ -7,7 +7,7 @@
 calc_twonet_score(net1, net2, ...)
 }
 \arguments{
-\item{net1,}{a igaph network}
+\item{net1,}{a igraph network}
 
 \item{net2,}{same as net2}
 

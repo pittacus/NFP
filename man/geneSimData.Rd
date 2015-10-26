@@ -2,9 +2,13 @@
 % Please edit documentation in R/geneSimData.R
 \name{geneSimData}
 \alias{geneSimData}
+\alias{loadSimData}
 \title{KEGG gene semantic similarity based on Gene ontology}
 \format{A similarity matrix whose rownames and the colnames represents the
 gene name}
+\usage{
+loadSimData()
+}
 \description{
 A dataset containing the semantic similarity score among all KEGG genes based on
 Gene Ontology

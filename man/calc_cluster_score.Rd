@@ -4,7 +4,7 @@
 \alias{calc_cluster_score}
 \title{calculate the similarity score in a specific cluster.}
 \usage{
-calc_cluster_score(cluster, node1, node2, gene_sim)
+calc_cluster_score(cluster, node1, node2)
 }
 \arguments{
 \item{cluster,}{cluster as a list of indices of samples belonging to the
@@ -13,8 +13,6 @@ cluster.}
 \item{node1,}{a nodes vector of net1}
 
 \item{node2,}{a nodes vector of net2}
-
-\item{gene_sim,}{gene similarity matrix based on Gene Ontology}
 }
 \description{
 calculate the similarity score in a specific cluster.
